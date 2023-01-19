@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    margin-top: 20px;
+    ul{
+        z-index: 1;
+    }
+}
+
+.price{
+    li{
+        color: #b22230;
+    }
+}
+
+.caption{
+    margin: 10px;
+}
+
+.list{
+    list-style-type: none;
+    height: 1.25em;
+}
+
+@media(max-width: 800px){
+    .container{
+        width: 100vw;
+        margin-top:0px
+    }
+} 
